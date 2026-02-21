@@ -161,7 +161,7 @@ if st.button("🚀 Generate Risk Assessment"):
     }
 
     response = requests.post(
-        "http://127.0.0.1:8000/predict",
+        "https://diabetes-risk-prediction-shm2.onrender.com/predict",
         json=payload
     )
 
